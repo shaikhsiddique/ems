@@ -16,7 +16,7 @@ function App() {
     setLocalStorage();
   }
   const handelLogin = (email, password) => {
-    if (email === "admin@me.com" && password === '123') {
+    if (email === "admin@gmail.com" && password === 'admin') {
       const adminUser = { role: 'admin' };
       setUser(adminUser);
       localStorage.setItem('loggedInUSer', JSON.stringify(adminUser));

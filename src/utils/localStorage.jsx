@@ -588,8 +588,8 @@ const employees = [
     {
       id: 1,
       name : 'Charlie Davis',
-      email: "admin@example.com",
-      password: "123",
+      email: "admin@gmail.com",
+      password: "admin",
     },
   ];
   
